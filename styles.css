@@ -140,16 +140,6 @@ p{
     }
 }
 
-@media (max-width: 440px){
-    h1,h2{
-        font-size: 1.2rem;
-    }
-
-    p{
-        font-size: .4rem;
-    }
-}
-
 
 @media (max-width: 480px){
     .header{
