@@ -312,20 +312,6 @@ p{
     }
 }
 
-@media (max-width: 600px){
-    .grid{
-        width: 150px;
-        height: 67px;
-    }
-}
-
-@media (max-width: 400px){
-    .grid{
-        width: 70px;
-        height: 31px;
-    }
-}
-
 
 /*Contact Me */
 
