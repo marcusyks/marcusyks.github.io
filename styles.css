@@ -150,15 +150,6 @@ p{
     }
 }
 
-@media (max-width: 300px){
-    h1,h2{
-        font-size: .6rem;
-    }
-
-    p{
-        font-size: .2rem;
-    }
-}
 
 @media (max-width: 480px){
     .header{
@@ -265,13 +256,10 @@ p{
 
     height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     border-bottom: 1px solid white;
-}
-
-#projects > p{
-    padding-top: 5rem;
 }
 
 .project-grid{
