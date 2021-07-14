@@ -130,7 +130,41 @@ p{
 }
 
 /*Responsive home page*/
+@media (max-width: 600px){
+    h1{
+        font-size: 1.8rem;
+    }
 
+    p{
+        font-size: .6rem;
+    }
+}
+
+@media (max-width: 440px){
+    h1{
+        font-size: 1.2rem;
+    }
+
+    p{
+        font-size: .4rem;
+    }
+}
+
+@media (max-width: 300px){
+    h1{
+        font-size: .6rem;
+    }
+
+    p{
+        font-size: .2rem;
+    }
+}
+
+@media (max-width: 480px){
+    .header{
+        font-size: .7rem;
+    }
+}
 
 /*About Section*/
 
