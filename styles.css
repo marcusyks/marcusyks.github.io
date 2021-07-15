@@ -103,7 +103,7 @@ a:hover,a:focus{
 
 @media (max-width: 400px){
     .header{
-        display:none;
+        font-size: .6rem;
     }
 }
 
@@ -119,7 +119,7 @@ a:hover,a:focus{
     border-bottom: 1px solid white ;
 }
 
-h1{
+h1, h2{
     font-size: 2.4rem;
     font-weight: bolder;
 }
@@ -326,6 +326,40 @@ p{
     display: flex;
     width: 80vw;
     justify-content: space-around;
+}
+
+.contact{
+    position: relative;
+    display: flex; 
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.contact > img{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+    margin: 2rem .5rem 0 0;
+}
+
+/*Contact Animation*/
+.contact:hover{
+    transition: 200ms ease-in-out;
+    transform: scaleX(1.2) scaleY(1.2);
+}
+
+/*Contact Me Responsive page*/
+@media (max-width: 600px){
+    .contact > img{
+        margin: 1rem .3rem 0 0;
+        height: 40px;
+        width: 40px;
+    }
+
+    h2{
+        font-size: 1.4rem;
+    }
 }
 
 
