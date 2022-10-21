@@ -47,7 +47,7 @@ body {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0 10px 1px black;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .nav-bar>ul {
@@ -66,7 +66,7 @@ a {
 
 /* Hover effect for a elements*/
 
-a::before {
+.nav-bar>a::before {
     position: absolute;
     content: ' ';
     bottom: 0;
@@ -78,13 +78,13 @@ a::before {
     transition: transform 300ms ease-in-out;
 }
 
-a:focus::before,
-a:hover::before {
+.nav-bar>a:focus::before,
+.nav-bar>a:hover::before {
     transform: scaleX(1);
 }
 
-a:hover,
-a:focus {
+.nav-bar>a:hover,
+.nav-bar>a:focus {
     color: white;
 }
 
@@ -124,7 +124,7 @@ h2 {
 }
 
 p {
-    font-size: .8rem;
+    font-size: 1rem;
     margin-top: -.5rem;
 }
 
@@ -272,8 +272,19 @@ p {
     width: var(--grid-width);
     background-color: #23a6d5;
     border: 2px solid black;
-    display: block;
     cursor: pointer;
+    display: block;
+}
+
+.grid>a {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: calc(var(--grid-height));
+    font-family: 'Inter', sans-serif, monospace;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .grid:hover {
