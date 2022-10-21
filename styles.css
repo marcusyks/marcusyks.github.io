@@ -320,7 +320,10 @@ p {
     .grid {
         width: 350px;
         height: 156px;
-        grid-gap: calc(var(--grid-gap)*0.8)
+        grid-gap: calc(var(--grid-gap)*0.8);
+    }
+    .grid>a {
+        padding-top: calc(var(--grid-height)*.6);
     }
 }
 
