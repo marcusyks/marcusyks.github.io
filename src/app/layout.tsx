@@ -12,6 +12,9 @@ const montserrat = Montserrat
 export const metadata: Metadata = {
   title: "Marcus",
   description: "Marcus's Personal Portfolio",
+  icons : {
+    icon : "/nextjs-github-pages/images/favicon.ico",
+  },
 };
 
 export default function RootLayout({
