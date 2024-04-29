@@ -30,35 +30,86 @@
                 "sector" : "Web Development",
                 "skills_used":
                 [
-                    ["React",3],
-                    ["Typescript",3],
-                    ["Javascript",3],
-                    ["HTML",3],
-                    ["CSS",3],
-                    ["NextJS",2],
-                    ["Django",2],
-                    ["PostgreSQL",2]
+                    {
+                        "name" : "React",
+                        "level" : 3
+                    },
+                    {
+                        "name" : "Typescript",
+                        "level" : 3
+                    },
+                    {
+                        "name" : "Javascript",
+                        "level" : 3
+                    },
+                    {
+                        "name" : "HTML",
+                        "level" : 3
+                    },
+                    {
+                        "name" : "CSS",
+                        "level" : 3
+                    },
+                    {
+                        "name" : "NextJS",
+                        "level" : 2
+                    },
+                    {
+                        "name" : "Django",
+                        "level" : 2
+                    },
+                    {
+                        "name" : "PostgreSQL",
+                        "level" : 2
+                    }
                 ]
             },
             {
                 "sector" : "Machine Learning",
                 "skills_used":
                 [
-                    ["Python",3],
-                    ["YOLO",3],
-                    ["OpenCV",2],
-                    ["Matplotlib",2],
-                    ["Pandas",2],
-                    ["Pytorch",1]
+                    {
+                        "name" : "Python",
+                        "level" : 3
+                    },
+                    {
+                        "name" : "YOLO",
+                        "level" : 3
+                    },
+                    {
+                        "name" : "OpenCV",
+                        "level" : 2
+                    },
+                    {
+                        "name" : "Matplotlib",
+                        "level" : 2
+                    },
+                    {
+                        "name" : "Pandas",
+                        "level" : 2
+                    },
+                    {
+                        "name" : "Pytorch",
+                        "level" : 1
+                    }
                 ]
             },
             {
                 "sector" : "DevOps",
                 "skills_used":
                 [
-                    ["Linux",2],
-                    ["Docker",2],
-                    ["Celery",1]
+                    {
+                        "name" : "Linux",
+                        "level" : 2
+                    },
+                    {
+                        "name" : "Docker",
+                        "level" : 2
+                    },
+                    {
+                        "name" : "Celery",
+                        "level" : 1
+                    }
                 ]
             }
         ]
