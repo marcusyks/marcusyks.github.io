@@ -12,7 +12,6 @@ export function ModeToggle() {
     setTheme(theme === 'light' ? 'dark' : 'light');
   };
 
-
   return (
     <div>
         <Button className="btn-animation rounded" size='icon' onClick={toggleTheme}>

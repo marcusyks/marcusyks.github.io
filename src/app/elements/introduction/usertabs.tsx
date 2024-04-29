@@ -1,21 +1,12 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import HoverWord from "./hoverword"
-import { AppWindowIcon, BarChart4Icon, BrainIcon, LaughIcon, TrophyIcon } from "lucide-react"
-import { CardDropDown } from "./carddropdown"
-import { JSONContent } from "@/app/structure/mainpage"
-import { CardDropDownContent } from "./carddropdown"
-import SkillsCard, { SkillsCardContent } from "./skillsCard"
-import SkillCardIntroduction from "./skillcardintroduction"
+import { CardDropDownContent, IntroductionContent, SkillsCardContent } from "@/app/data/data";
+import { CardDropDown } from "./carddropdown";
+import SkillCardIntroduction from "./skillcardintroduction";
+import SkillsCard from "./skillsCard";
 
-type UserTabJSON = {
-    usertabs : JSON,
-    skills : JSON,
-}
-
-
-export default function UserTabs(props: UserTabJSON){
-    const userTabsArray: CardDropDownContent[] = props.usertabs as unknown as CardDropDownContent[];
-    const skillsArray: SkillsCardContent[] = props.skills as unknown as SkillsCardContent[];
+export default function UserTabs(props: IntroductionContent){
+    const userTabsArray: CardDropDownContent[] = props.usertabs;
+    const skillsArray: SkillsCardContent[] = props.skills;
 
     const items = userTabsArray.map((element: CardDropDownContent, index: number) => (
         <CardDropDown key={index} icon={element.icon} description={element.description} content={element.content}/>

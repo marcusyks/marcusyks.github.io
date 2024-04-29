@@ -1,24 +1,10 @@
 import Image from "next/image";
 import ProjectTable from "../elements/project/projecttable";
 import { useState } from "react";
-import { JSONContent } from "./mainpage";
+import { ProjectContent } from "../data/data";
 
-function CountProjects(){
-  const target = document.getElementById('project-list');
-  let numberOfChildren = 0;
 
-  if (target) {
-    numberOfChildren = target.querySelectorAll('*').length;
-    console.log("Number of child elements:", numberOfChildren);
-  }
-  else{
-    console.log('Cannot find element')
-  }
-
-  return numberOfChildren;
-}
-
-export default function Project(props: JSONContent) {
+export default function Project(props: ProjectContent) {
     const [childs, SetChilds] = useState(0);
 
     function ChildToParent(childData: number) {
@@ -45,7 +31,7 @@ export default function Project(props: JSONContent) {
               </span>
             </div>
           </div>
-          <ProjectTable ChildToParent={ChildToParent} props={props}/>
+          <ProjectTable props={props} ChildToParent={ChildToParent}/>
         </div>
     );
   }

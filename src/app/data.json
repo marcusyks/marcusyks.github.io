@@ -116,90 +116,96 @@
 
     },
     "internship" :
-    [
-        {
-            "header" : "Cynapse Pte Ltd",
-            "image_src" : "/nextjs-github-pages/cynapse_ai_logo.jpg",
-            "image_alt" : "Cynapse Company Logo",
-            "role": "AI Software Engineering Intern",
-            "description":
-            [
-                "Directly involved with the development of YOLO models for production usage",
-                "Deployment of CVAT (Computer Vision Annotation Tool)",
-                "Wrote customized scripts for dataset pipelines and image augmentation"
-            ],
-            "skills":
-            [
-                "YOLO",
-                "Linux",
-                "Python",
-                "Docker",
-                "OpenCV"
-            ]
-        },
-        {
-            "header" : "More To Come!",
-            "image_src" : "/nextjs-github-pages/smiley.png",
-            "image_alt" : "Smiley Face",
-            "role": "Contact me and be my next employer!",
-            "description": [],
-            "skills": []
-        }
-    ],
+    {
+       "internships":
+        [
+            {
+                "header" : "Cynapse Pte Ltd",
+                "image_src" : "/nextjs-github-pages/cynapse_ai_logo.jpg",
+                "image_alt" : "Cynapse Company Logo",
+                "role": "AI Software Engineering Intern",
+                "description":
+                [
+                    "Directly involved with the development of YOLO models for production usage",
+                    "Deployment of CVAT (Computer Vision Annotation Tool)",
+                    "Wrote customized scripts for dataset pipelines and image augmentation"
+                ],
+                "skills":
+                [
+                    "YOLO",
+                    "Linux",
+                    "Python",
+                    "Docker",
+                    "OpenCV"
+                ]
+            },
+            {
+                "header" : "More To Come!",
+                "image_src" : "/nextjs-github-pages/smiley.png",
+                "image_alt" : "Smiley Face",
+                "role": "Contact me and be my next employer!",
+                "description": [],
+                "skills": []
+            }
+        ]
+    },
     "project":
-    [
-        {
-            "number": 1,
-            "image_src": "/nextjs-github-pages/playlist.jpg",
-            "image_alt": "Portfolio Image",
-            "project_name": "Personal Portfolio",
-            "description": "You are here!",
-            "long_description": "This is a personal portfolio created with Spotify in mind, I really love music, if you can already tell",
-            "skills" :
-            [
-                "NextJS",
-                "Typescript",
-                "Javascript"
-            ],
-            "date_added": "15/05/2024",
-            "link": "https://marcusyks.github.io"
-        },
-        {
-            "number": 2,
-            "image_src": "/nextjs-github-pages/dosetrack.png",
-            "image_alt": "DoseTrack Image",
-            "project_name": "DoseTrack",
-            "description": "A medication reminder app",
-            "long_description": "This is a full-stack web application that reminds you to eat your medication on telegram",
-            "skills" :
-            [
-                "ReactJS",
-                "Typescript",
-                "Django",
-                "Celery",
-                "Python",
-                "Javascript"
-            ],
-            "date_added": "05/04/2024",
-            "link": "'https://github.com/marcusyks/DoseTrack"
-        },
-        {
-            "number": 3,
-            "image_src": "/nextjs-github-pages/tictactoe.png",
-            "image_alt": "Tic Tac Toe Image",
-            "project_name": "Tic Tac Toe",
-            "description": "A tic tac toe game",
-            "long_description": "This is a simple tic tac toe game made entirely using vanilla HTML, CSS and Javascript",
-            "skills" :
-            [
-                "HTML",
-                "CSS",
-                "Javascript"
-            ],
-            "date_added": "20/10/2022",
-            "link": "https://github.com/marcusyks/Javascript-Tic-Tac-Toe"
-        }
-    ]
+    {
+        "projects":
+        [
+            {
+                "number": 1,
+                "image_src": "/nextjs-github-pages/playlist.jpg",
+                "image_alt": "Portfolio Image",
+                "project_name": "Personal Portfolio",
+                "description": "You are here!",
+                "long_description": "This is a personal portfolio created with Spotify in mind, I really love music, if you can already tell",
+                "skills" :
+                [
+                    "NextJS",
+                    "Typescript",
+                    "Javascript"
+                ],
+                "date_added": "15/05/2024",
+                "link": "https://marcusyks.github.io"
+            },
+            {
+                "number": 2,
+                "image_src": "/nextjs-github-pages/dosetrack.png",
+                "image_alt": "DoseTrack Image",
+                "project_name": "DoseTrack",
+                "description": "A medication reminder app",
+                "long_description": "This is a full-stack web application that reminds you to eat your medication on telegram",
+                "skills" :
+                [
+                    "ReactJS",
+                    "Typescript",
+                    "Django",
+                    "Celery",
+                    "Python",
+                    "Javascript"
+                ],
+                "date_added": "05/04/2024",
+                "link": "'https://github.com/marcusyks/DoseTrack"
+            },
+            {
+                "number": 3,
+                "image_src": "/nextjs-github-pages/tictactoe.png",
+                "image_alt": "Tic Tac Toe Image",
+                "project_name": "Tic Tac Toe",
+                "description": "A tic tac toe game",
+                "long_description": "This is a simple tic tac toe game made entirely using vanilla HTML, CSS and Javascript",
+                "skills" :
+                [
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ],
+                "date_added": "20/10/2022",
+                "link": "https://github.com/marcusyks/Javascript-Tic-Tac-Toe"
+            }
+        ]
+    }
 }
 
 

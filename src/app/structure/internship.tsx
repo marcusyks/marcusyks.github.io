@@ -1,12 +1,12 @@
+import { InternshipContent } from "../data/data"
 import CarouselCards from "../elements/internship/carouselcards"
 import TypingEffect from "../elements/introduction/typingeffect"
-import { JSONContent } from "./mainpage"
 
-export default function Internship(props: JSONContent) {
+export default function Internship(props: InternshipContent) {
     return (
       <div className='section' id='internship'>
         <TypingEffect content="My Work Experience"/>
-        <CarouselCards data={props.data}/>
+        <CarouselCards {...props}/>
       </div>
     )
 }

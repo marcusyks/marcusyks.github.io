@@ -1,3 +1,5 @@
+import { ProjectSubContent } from "@/app/data/data"
+import { PrintSkills } from "@/app/utils"
 import {
     Sheet,
     SheetContent,
@@ -8,19 +10,9 @@ import {
   } from "@/components/ui/sheet"
 import { EllipsisVerticalIcon } from "lucide-react"
 import Image from "next/image"
-import { PrintSkills } from "./projectcard"
 import Link from "next/link"
 
-type ProjectContent = {
-    image_src : string,
-    image_alt: string,
-    project_name : string,
-    long_description: string,
-    skills: string[],
-    link: string,
-}
-
-export default function ProjectContent(props: ProjectContent){
+export default function ProjectContent(props: ProjectSubContent){
     return(
         <Sheet>
             <SheetTrigger>

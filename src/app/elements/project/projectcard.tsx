@@ -1,26 +1,8 @@
 import { TableCell, TableRow } from "@/components/ui/table";
 import Image from "next/image";
 import ProjectContent from "./projectcontent";
-import { Badge } from "@/components/ui/badge"
-
-
-export type ProjectCardContent = {
-    number: number,
-    image_src : string,
-    image_alt : string,
-    project_name : string,
-    description: string,
-    long_description: string,
-    skills: string[],
-    date_added: string,
-    link: string,
-}
-
-export function PrintSkills(skills: string[], hide: boolean){
-    return skills.map((skill,index) => (
-        <Badge key={skill+index} variant='outline' className={`bg-background p-3 flex flex-wrap shadow-lg ${hide ? 'hidden xl:table-cell' : 'table-cell'}`}>{skill}</Badge>
-    ))
-}
+import { ProjectCardContent } from "@/app/data/data";
+import { PrintSkills } from "@/app/utils";
 
 export function ProjectCard(props: ProjectCardContent) {
     return (

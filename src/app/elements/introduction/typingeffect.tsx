@@ -1,11 +1,11 @@
-import React from "react"; 
-import Typewriter from 'typewriter-effect'; 
+import React from "react";
+import Typewriter from 'typewriter-effect';
 
 type TypingContent = {
     content : string,
 }
 
-export default function TypingEffect(props: TypingContent) { 
+export default function TypingEffect(props: TypingContent) {
     const dolphin = '&#128044'
 
     return (

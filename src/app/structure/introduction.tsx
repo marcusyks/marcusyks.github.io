@@ -1,13 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from "next/image";
 import UserTabs from "../elements/introduction/usertabs";
 import TypingEffect from "../elements/introduction/typingeffect";
-import { JSONContent } from "./mainpage";
+import { IntroductionContent } from "../data/data";
 
-export default function Introduction(props: JSONContent){
-    const usertabs = props.data.usertabs;
-    const skills = props.data.skills;
-
+export default function Introduction(props: IntroductionContent){
     return(
         <div className="section" id='introduction'>
             <div className="flex flex-col justify-center items-center gap-6 sm:flex-row sm:justify-normal">
@@ -16,7 +12,7 @@ export default function Introduction(props: JSONContent){
                 </p>
             </div>
             <TypingEffect content='Welcome to my website...'/>
-            <UserTabs usertabs={usertabs} skills={skills} />
+            <UserTabs {...props} />
         </div>
     );
 }

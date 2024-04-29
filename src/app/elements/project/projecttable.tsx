@@ -7,29 +7,15 @@ import {
     TableHeader,
     TableRow,
   } from "@/components/ui/table"
-import { ProjectCard, ProjectCardContent } from "./projectcard"
+import { ProjectCard } from "./projectcard"
 import { useEffect, useState } from "react";
-import { JSONContent } from "@/app/structure/mainpage";
+import { ProjectContent, ProjectCardContent } from "@/app/data/data";
+import { CountProjects } from "@/app/utils";
 
-function CountProjects(){
-    const target = document.getElementById('project-list');
-    let numberOfChildren = 0;
-
-    if (target) {
-      numberOfChildren = target.children.length;
-    //   console.log("Number of child elements:", numberOfChildren);
-    }
-    else{
-    //   console.log('Cannot find element')
-    }
-
-    return numberOfChildren;
-}
-
-export default function ProjectTable({ ChildToParent, props }: { ChildToParent: (count: number) => void, props: JSONContent }) {
+export default function ProjectTable({ ChildToParent, props }: { ChildToParent: (count: number) => void, props: ProjectContent }) {
     const [childs, SetChilds] = useState(0);
 
-    const dataArray: ProjectCardContent[] = props.data as unknown as ProjectCardContent[];
+    const dataArray: ProjectCardContent[] = props.projects as unknown as ProjectCardContent[];
 
     const items = dataArray.map((element: ProjectCardContent, index: number) => (
         <ProjectCard {...element} key={index}/>

@@ -6,13 +6,12 @@ import {
     CarouselPrevious,
   } from "@/components/ui/carousel"
 import InternshipCard from "./internshipcard"
-import { InternshipCardContent } from "./internshipcard";
-import { JSONContent } from "@/app/structure/mainpage";
+import { InternshipCardContent, InternshipContent } from "@/app/data/data";
 
-export default function CarouselCards(props: JSONContent){
-    const dataArray: InternshipCardContent[] = props.data as unknown as InternshipCardContent[];
+export default function CarouselCards(props: InternshipContent){
+    const internships: InternshipCardContent[] = props.internships;
 
-    const items = dataArray.map((element: InternshipCardContent, index: number) => (
+    const items = internships.map((element: InternshipCardContent, index: number) => (
         <InternshipCard key={index} {...element}/>
     ));
 

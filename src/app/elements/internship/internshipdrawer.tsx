@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button"
 import {
     Sheet,
     SheetContent,
@@ -8,20 +7,10 @@ import {
     SheetTrigger,
   } from "@/components/ui/sheet"
 import Image from "next/image"
-import Link from "next/link"
-import { InternshipCardContent } from "./internshipcard"
 import SidebarContent from "../sidebarcontent"
-import { PrintSkills } from "../project/projectcard"
 import { CheckIcon } from "lucide-react"
-
-function PrintDescription(items: string[]){
-    return items.map((item,index)=>(
-        <div key={index} className='shadow-lg flex justify-center items-center rounded-full font-bold border-2 p-3'>
-            <CheckIcon size={50}/>
-            <div className='pl-3'>{item}</div>
-        </div>
-    ))
-}
+import { InternshipCardContent } from "@/app/data/data"
+import { PrintDescription, PrintSkills } from "@/app/utils"
 
 export default function InternshipDrawer(props: InternshipCardContent){
     return(

@@ -4,33 +4,9 @@ import {
     AccordionItem,
     AccordionTrigger,
   } from "@/components/ui/accordion"
-import { ReactElement } from "react"
 import CardContent from "./cardcontent"
-import { AppWindowIcon, BarChart4Icon, BrainIcon, LaughIcon, TrophyIcon } from "lucide-react"
-
-
-export type CardDropDownContent = {
-    icon: string,
-    description: string,
-    content: string,
-}
-
-function DecideIcon(icon: string){
-    switch(icon){
-        case 'laugh':
-            return <LaughIcon className="mx-6 flex-grow"/>
-            break;
-        case 'barchart':
-            return<BarChart4Icon className="mx-6 flex-grow"/>
-            break;
-        case 'trophy':
-            return<TrophyIcon className="mx-6 flex-grow"/>
-            break;
-        case 'appwindow':
-            return <AppWindowIcon className="mx-6 flex-grow"/>
-            break;
-    }
-}
+import { CardDropDownContent } from "@/app/data/data"
+import { DecideIcon } from "@/app/utils"
 
 export function CardDropDown(props: CardDropDownContent) {
     return (
