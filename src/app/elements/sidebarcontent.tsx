@@ -38,7 +38,7 @@ import {
                         <Link href='https://linkedin.com/in/marcusyks' target="_blank">
                             <LinkedinIcon size={40} className="btn-animation"/>
                         </Link>
-                        <Link href='mailto:marcus.yks27@gmail.com'>
+                        <Link href="#mailgo" data-address="marcus.yks27" data-domain="gmail.com">
                             <MailIcon size={40} className="btn-animation"/>
                         </Link>
                     </div>
