@@ -5,7 +5,7 @@ import { SkillsUsedContent } from "./data/data";
 
 export function PrintSkills(skills: string[], hide: boolean){
     return skills.map((skill,index) => (
-        <Badge key={skill+index} variant='outline' className={`bg-background p-3 flex flex-wrap shadow-lg ${hide ? 'hidden xl:table-cell' : 'table-cell'}`}>{skill}</Badge>
+        <Badge key={skill+index} variant='outline' className={`bg-background p-3 flex flex-wrap shadow-lg border-0 ${hide ? 'hidden xl:table-cell' : 'table-cell'}`}>{skill}</Badge>
     ))
 }
 
