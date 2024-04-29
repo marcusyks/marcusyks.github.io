@@ -121,7 +121,7 @@
         [
             {
                 "header" : "Cynapse Pte Ltd",
-                "image_src" : "/nextjs-github-pages/cynapse_ai_logo.jpg",
+                "image_src" : "/cynapse_ai_logo.jpg",
                 "image_alt" : "Cynapse Company Logo",
                 "role": "AI Software Engineering Intern",
                 "description":
@@ -141,7 +141,7 @@
             },
             {
                 "header" : "More To Come!",
-                "image_src" : "/nextjs-github-pages/smiley.png",
+                "image_src" : "/smiley.png",
                 "image_alt" : "Smiley Face",
                 "role": "Contact me and be my next employer!",
                 "description": [],
@@ -155,7 +155,7 @@
         [
             {
                 "number": 1,
-                "image_src": "/nextjs-github-pages/playlist.jpg",
+                "image_src": "/playlist.jpg",
                 "image_alt": "Portfolio Image",
                 "project_name": "Personal Portfolio",
                 "description": "You are here!",
@@ -171,7 +171,7 @@
             },
             {
                 "number": 2,
-                "image_src": "/nextjs-github-pages/dosetrack.png",
+                "image_src": "/dosetrack.png",
                 "image_alt": "DoseTrack Image",
                 "project_name": "DoseTrack",
                 "description": "A medication reminder app",
@@ -190,7 +190,7 @@
             },
             {
                 "number": 3,
-                "image_src": "/nextjs-github-pages/tictactoe.png",
+                "image_src": "/tictactoe.png",
                 "image_alt": "Tic Tac Toe Image",
                 "project_name": "Tic Tac Toe",
                 "description": "A tic tac toe game",
