@@ -5,7 +5,7 @@ import { InternshipCardContent } from "@/app/data/data";
 
 export default function InternshipCard(props: InternshipCardContent){
     return(
-        <CarouselItem className="flex flex-col gap-6 items-center rounded p-12 bg-gradient-to-b from-background to-muted">
+        <CarouselItem className="flex flex-col gap-6 items-center rounded p-12 bg-black">
             <h1>{props.header}</h1>
             <Image
                 src={props.image_src}

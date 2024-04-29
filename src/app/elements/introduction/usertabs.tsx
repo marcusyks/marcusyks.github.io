@@ -25,8 +25,8 @@ export default function UserTabs(props: IntroductionContent){
             <TabsContent value="Who Am I" className="grid grid-flow-row grid-cols-1 gap-4 lg:grid-cols-4">
                 {items}
             </TabsContent>
-            <TabsContent value="Skills" className="bg-gradient-to-b from-background to-muted shadow-xl rounded text-center">
-                <div className='p-2'>
+            <TabsContent value="Skills" className="bg-background to-muted shadow-xl rounded text-center">
+                <div className='p-4'>
                     {skills}
                 </div>
                 <SkillCardIntroduction/>
