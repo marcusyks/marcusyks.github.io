@@ -5,6 +5,9 @@ import TypingEffect from "../elements/introduction/typingeffect";
 import { JSONContent } from "./mainpage";
 
 export default function Introduction(props: JSONContent){
+    const usertabs = props.data.usertabs;
+    const skills = props.data.skills;
+
     return(
         <div className="section" id='introduction'>
             <div className="flex flex-col justify-center items-center gap-6 sm:flex-row sm:justify-normal">
@@ -13,7 +16,7 @@ export default function Introduction(props: JSONContent){
                 </p>
             </div>
             <TypingEffect content='Welcome to my website...'/>
-            <UserTabs usertabs={props.data.usertabs} skills={props.data.skills} />
+            <UserTabs usertabs={usertabs} skills={skills} />
         </div>
     );
 }
