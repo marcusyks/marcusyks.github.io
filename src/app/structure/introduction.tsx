@@ -13,7 +13,7 @@ export default function Introduction(props: JSONContent){
                 </p>
             </div>
             <TypingEffect content='Welcome to my website...'/>
-            <UserTabs {...props.data}/>
+            <UserTabs usertabs={props.data.usertabs} skills={props.data.skills} />
         </div>
     );
 }
