@@ -16,7 +16,7 @@ export default function Project(props: ProjectContent) {
         <div className="mx-6 p-4 py-32 h-fit flex flex-col justify-center items-center xl:px-16 gap-8" id='project'>
           <div className="flex flex-col items-center w-full gap-10 lg:flex-row">
             <Image
-              src='/playlist.jpg'
+              src='/nextjs-github-pages/playlist.jpg'
               width={250}
               height={250}
               alt='Playlist Image'

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Marcus",
   description: "Marcus's Personal Portfolio",
   icons : {
-    icon : "/images/favicon.ico",
+    icon : "/nextjs-github-pages/images/favicon.ico",
   },
 };
 
