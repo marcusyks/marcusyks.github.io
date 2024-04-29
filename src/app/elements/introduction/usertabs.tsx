@@ -7,9 +7,15 @@ import { CardDropDownContent } from "./carddropdown"
 import SkillsCard, { SkillsCardContent } from "./skillsCard"
 import SkillCardIntroduction from "./skillcardintroduction"
 
-export default function UserTabs(props: JSONContent){
-    const userTabsArray: CardDropDownContent[] = props.data.usertabs as unknown as CardDropDownContent[];
-    const skillsArray: SkillsCardContent[] = props.data.skills as unknown as SkillsCardContent[];
+type UserTabJSON = {
+    usertabs : JSON,
+    skills : JSON,
+}
+
+
+export default function UserTabs(props: UserTabJSON){
+    const userTabsArray: CardDropDownContent[] = props.usertabs as unknown as CardDropDownContent[];
+    const skillsArray: SkillsCardContent[] = props.skills as unknown as SkillsCardContent[];
 
     const items = userTabsArray.map((element: CardDropDownContent, index: number) => (
         <CardDropDown key={index} icon={element.icon} description={element.description} content={element.content}/>
