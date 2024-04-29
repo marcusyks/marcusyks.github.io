@@ -23,7 +23,7 @@ function FindCardColor(level: number){
 
 function PrintSkillsCards(cards: SkillsUsedContent[]) {
     return cards.map((element, index) => (
-        <Badge key={index} variant='outline' className={`p-2 lg:p-3 shadow-lg border-0 ${FindCardColor(element[1])} text-black`}>{element[0]}</Badge>
+        <Badge key={index} variant='outline' className={`p-2 lg:p-3 shadow-lg border-0 ${FindCardColor(element.level)} text-black`}>{element.name}</Badge>
     ));
 }
 
