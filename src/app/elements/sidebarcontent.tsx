@@ -9,7 +9,7 @@ import {
     DrawerTrigger,
   } from "@/components/ui/drawer"
   import { Button } from "@/components/ui/button"
-  import { ContactIcon, GithubIcon, LinkedinIcon, MailIcon } from "lucide-react";
+  import { ContactIcon, GithubIcon, LinkedinIcon} from "lucide-react";
   import Link from "next/link";
   import { ModeToggle } from "./modetoggle";
 
@@ -19,7 +19,7 @@ import {
 
   export default function SidebarContent(props: AllowToggle) {
     return (
-        <Drawer>
+        <Drawer modal={false}>
             <div className="flex flex-col gap-4 items-center m-4">
                 {/* Content */}
                 {props.allow ? <ModeToggle/> : <></>}
@@ -37,9 +37,6 @@ import {
                         </Link>
                         <Link href='https://linkedin.com/in/marcusyks' target="_blank">
                             <LinkedinIcon size={40} className="btn-animation"/>
-                        </Link>
-                        <Link href="#mailgo" data-address="marcus.yks27" data-domain="gmail.com">
-                            <MailIcon size={40} className="btn-animation"/>
                         </Link>
                     </div>
                 </DrawerHeader>
