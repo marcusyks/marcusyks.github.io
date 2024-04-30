@@ -16,7 +16,7 @@ export default function InternshipDrawer(props: InternshipCardContent){
     return(
         <Sheet>
             <SheetTrigger>
-                <div className='rounded bg-foreground text-background btn-animation p-3 text-sm font-bold shadow-lg'>
+                <div className='rounded bg-foreground text-background btn-animation p-3 text-sm font-bold shadow-lg shadow-background/50'>
                     Find Out More
                 </div>
             </SheetTrigger>

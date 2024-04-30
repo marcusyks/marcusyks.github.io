@@ -5,7 +5,7 @@ import { SkillsUsedContent } from "./data/data";
 
 export function PrintSkills(skills: string[], hide: boolean){
     return skills.map((skill,index) => (
-        <Badge key={skill+index} variant='outline' className={`bg-background p-3 flex flex-wrap shadow-lg border-0 ${hide ? 'hidden xl:table-cell' : 'table-cell'}`}>{skill}</Badge>
+        <Badge key={skill+index} variant='outline' className={`bg-background p-3 flex flex-wrap shadow-lg shadow-foreground/50 border-0 ${hide ? 'hidden xl:table-cell' : 'table-cell'}`}>{skill}</Badge>
     ))
 }
 
@@ -85,7 +85,7 @@ export function FindCardColor(level: number){
 
 export function PrintSkillsCards(cards: SkillsUsedContent[]) {
     return cards.map((element, index) => (
-        <Badge key={index} variant='outline' className={`p-2 lg:p-3 shadow-lg border-0 ${FindCardColor(element.level)} text-black`}>{element.name}</Badge>
+        <Badge key={index} variant='outline' className={`p-2 lg:p-3 shadow-lg shadow-foreground/50 border-0 ${FindCardColor(element.level)} text-black`}>{element.name}</Badge>
     ));
 }
 
