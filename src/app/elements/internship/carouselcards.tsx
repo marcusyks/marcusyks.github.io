@@ -16,7 +16,7 @@ export default function CarouselCards(props: InternshipContent){
     ));
 
     return(
-        <Carousel className="bg-background flex justify-center items-center rounded shadow-2xl shadow-foreground/50 w-full lg:w-fit">
+        <Carousel className="bg-background flex justify-center items-center rounded shadow-xl shadow-foreground/30 w-full lg:w-fit">
             <CarouselContent className="text-center">
                 {items}
             </CarouselContent>
