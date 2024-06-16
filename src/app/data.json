@@ -140,6 +140,24 @@
                 ]
             },
             {
+                "header" : "DSTA",
+                "image_src" : "/cynapse.png",
+                "image_alt" : "DSTA Company Logo",
+                "role": "Cyber AI Intern",
+                "description":
+                [
+                    "Finetuned LLMs to enhance accuracy for cyber related information",
+                    "Implemented prompt engineering to optimize LLM performance",
+                    "Conducted comprehensive benchmarking and comparative analysis of various LLMs"
+                ],
+                "skills":
+                [
+                    "Linux",
+                    "Python",
+                    "Docker"
+                ]
+            },
+            {
                 "header" : "More To Come!",
                 "image_src" : "/smiley.png",
                 "image_alt" : "Smiley Face",
