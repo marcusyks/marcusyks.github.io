@@ -137,14 +137,6 @@
                     "Python",
                     "Docker"
                 ]
-            },
-            {
-                "header" : "More To Come!",
-                "image_src" : "/smiley.png",
-                "image_alt" : "Smiley Face",
-                "role": "Contact me and be my next employer!",
-                "description": [],
-                "skills": []
             }
         ]
     },

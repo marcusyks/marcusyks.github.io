@@ -11,7 +11,7 @@ export default function InternshipCard(props: InternshipCardContent){
                 width={160}
                 height={160}
                 alt={props.image_alt}
-                className="rounded-full md:w-[240px] md:h-[240px] shadow-sm shadow-foreground/70"
+                className="rounded-full md:w-[240px] md:h-[240px] shadow-md shadow-foreground/70"
             />
             <InternshipDrawer {...props}/>
         </CarouselItem>
