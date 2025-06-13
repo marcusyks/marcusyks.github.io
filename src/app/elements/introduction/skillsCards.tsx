@@ -11,7 +11,7 @@ export default function SkillCards(props: SkillsContent) {
                 width={48}
                 height={48}
                 alt={skill.image_alt}
-                className="mx-auto mb-4 rounded-full md:w-[64px] md:h-[64px]"
+                className="mx-auto mb-4 rounded-xl md:w-[64px] md:h-[64px]"
             />
             <p className="text-xs sm:text-sm font-semibold">{skill.name}</p>
         </div>
@@ -19,7 +19,7 @@ export default function SkillCards(props: SkillsContent) {
 
     return (
         <div>
-            <div className="flex flex-wrap justify-center items-center gap-3 md:px-16 max-h-200px">
+            <div className="flex flex-wrap justify-center items-center gap-3 md:px-16">
                 {skillItems}
             </div>
         </div>

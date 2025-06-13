@@ -85,7 +85,7 @@
   }
 
   .section{
-    @apply flex flex-col gap-6 text-3xl rounded mx-6 h-screen lg:my-0 justify-center items-center snap-center;
+    @apply z-10 flex flex-col gap-6 text-3xl rounded mx-6 h-screen lg:my-0 justify-center items-center snap-center;
   }
 
   .carousel{
