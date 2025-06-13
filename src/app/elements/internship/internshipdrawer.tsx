@@ -28,7 +28,7 @@ export default function InternshipDrawer(props: InternshipCardContent){
                             width={120}
                             height={120}
                             alt={props.image_alt}
-                            className="rounded-full shadow-md shadow-foreground/70"
+                            className="rounded-full shadow-sm shadow-foreground/70"
                         />
                         <SheetTitle className='text-3xl flex flex-wrap'>{props.header}</SheetTitle>
                         <SheetTitle className='flex flex-wrap text-center font-normal'>{props.role}</SheetTitle>
