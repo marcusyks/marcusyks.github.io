@@ -5,7 +5,8 @@ import TypingEffect from "../elements/introduction/typingeffect"
 export default function Internship(props: InternshipContent) {
     return (
       <div className='section' id='internship'>
-        <TypingEffect content="My Work Experience"/>
+        <p className="text-4xl">Work Experiences</p>
+        <TypingEffect content="Here are some internships that I have done"/>
         <CarouselCards {...props}/>
       </div>
     )

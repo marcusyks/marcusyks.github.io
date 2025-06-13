@@ -16,7 +16,7 @@ export default function InternshipDrawer(props: InternshipCardContent){
     return(
         <Sheet>
             <SheetTrigger>
-                <div className='rounded bg-background text-foreground shadow-lg shadow-foreground/30 btn-animation p-3 text-sm font-bold shadow-lg shadow-background/50'>
+                <div className='rounded bg-background text-foreground shadow-sm shadow-foreground btn-animation p-3 text-sm font-bold shadow-lg shadow-background/50'>
                     Find Out More
                 </div>
             </SheetTrigger>
@@ -25,9 +25,10 @@ export default function InternshipDrawer(props: InternshipCardContent){
                     <div className="w-full flex flex-col items-center justify-center gap-6">
                         <Image
                             src={props.image_src}
-                            width={150}
-                            height={150}
+                            width={120}
+                            height={120}
                             alt={props.image_alt}
+                            className="rounded-xl"
                         />
                         <SheetTitle className='text-3xl flex flex-wrap'>{props.header}</SheetTitle>
                         <SheetTitle className='flex flex-wrap text-center font-normal'>{props.role}</SheetTitle>

@@ -11,6 +11,7 @@
   html {
     --scroll-behavior: smooth!important;
     scroll-behavior: smooth!important;
+    scroll-snap-type: y mandatory;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE and Edge */
   }
@@ -81,7 +82,7 @@
   }
 
   .section{
-    @apply flex flex-col gap-6 text-3xl pb-12 pt-4 rounded mx-6 my-20 h-fit lg:h-screen lg:my-0 justify-center items-center
+    @apply flex flex-col gap-6 text-3xl rounded mx-6 h-screen lg:my-0 justify-center items-center snap-center;
   }
 
   .carousel{

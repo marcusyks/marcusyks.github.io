@@ -5,13 +5,13 @@ import { InternshipCardContent } from "@/app/data/data";
 
 export default function InternshipCard(props: InternshipCardContent){
     return(
-        <CarouselItem className="flex flex-col gap-6 items-center rounded p-12 bg-background">
+        <CarouselItem className="flex flex-col gap-12 items-center rounded p-12 justify-center align-center">
             <Image
                 src={props.image_src}
-                width={200}
-                height={200}
+                width={160}
+                height={160}
                 alt={props.image_alt}
-                className="rounded-xl"
+                className="rounded-full md:w-[240px] md:h-[240px] shadow-sm shadow-foreground/70"
             />
             <InternshipDrawer {...props}/>
         </CarouselItem>

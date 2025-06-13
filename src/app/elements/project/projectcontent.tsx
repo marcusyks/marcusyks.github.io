@@ -25,9 +25,10 @@ export default function ProjectContent(props: ProjectSubContent){
                     <div className="w-full flex flex-col items-center justify-center gap-6">
                         <Image
                             src={props.image_src}
-                            width={150}
-                            height={150}
+                            width={120}
+                            height={120}
                             alt={props.image_alt}
+                            className="rounded-xl"
                         />
                         <SheetTitle className='text-3xl flex flex-wrap'>{props.project_name}</SheetTitle>
                     </div>
@@ -39,9 +40,9 @@ export default function ProjectContent(props: ProjectSubContent){
                     <div className="flex flex-wrap justify-center gap-2">
                         {PrintSkills(props.skills, false)}
                     </div>
-                    <div className='flex flex-col gap-2 items-center'>
+                    <div className='flex flex-col gap-4 items-center'>
                         <span>Take a look at my project:</span>
-                        <div className="bg-foreground text-background p-4 shadow-lg rounded-full btn-animation font-bold">
+                        <div className="bg-foreground text-background p-2 shadow-lg rounded-xl btn-animation font-bold">
                             <Link href={props.link} target='_blank'>
                                 Link
                             </Link>

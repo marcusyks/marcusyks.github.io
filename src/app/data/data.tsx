@@ -1,30 +1,18 @@
 export type JSONContent = {
-    introduction: IntroductionContent,
+    introduction: SkillsContent,
     project: ProjectContent,
     internship: InternshipContent,
 }
 
-// Introduction
-
-export type IntroductionContent = {
-    usertabs : CardDropDownContent[]
-    skills :  SkillsCardContent[]
+//Skills
+export type SkillsContent = {
+    skills: SkillCard[]
 }
 
-export type CardDropDownContent = {
-    icon: string,
-    description: string,
-    content: string,
-}
-
-export type SkillsCardContent = {
-    sector : string,
-    skills_used : SkillsUsedContent[],
-}
-
-export type SkillsUsedContent = {
-    name : string,
-    level : number,
+export type SkillCard = {
+    name: string,
+    image_src: string,
+    image_alt: string
 }
 
 // Project

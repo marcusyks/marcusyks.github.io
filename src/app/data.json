@@ -1,116 +1,97 @@
 {
     "introduction":
     {
-        "usertabs" :
-        [
-            {
-                "icon" : "laugh",
-                "description": "Part-Time Joker",
-                "content": "joker"
-            },
-            {
-                "icon" : "barchart",
-                "description": "Curious Learner",
-                "content": "learner"
-            },
-            {
-                "icon" : "trophy",
-                "description": "Sports Enthusiast",
-                "content": "enthusiast"
-            },
-            {
-                "icon" : "appwindow",
-                "description": "Passionate Developer",
-                "content": "developer"
-            }
-        ],
         "skills" :
         [
             {
-                "sector" : "Web Development",
-                "skills_used":
-                [
-                    {
-                        "name" : "React",
-                        "level" : 3
-                    },
-                    {
-                        "name" : "Typescript",
-                        "level" : 3
-                    },
-                    {
-                        "name" : "Javascript",
-                        "level" : 3
-                    },
-                    {
-                        "name" : "HTML",
-                        "level" : 3
-                    },
-                    {
-                        "name" : "CSS",
-                        "level" : 3
-                    },
-                    {
-                        "name" : "NextJS",
-                        "level" : 2
-                    },
-                    {
-                        "name" : "Django",
-                        "level" : 2
-                    },
-                    {
-                        "name" : "PostgreSQL",
-                        "level" : 2
-                    }
-                ]
+                "name": "Python",
+                "image_src": "/python.svg",
+                "image_alt": "Python Logo"
             },
             {
-                "sector" : "Machine Learning",
-                "skills_used":
-                [
-                    {
-                        "name" : "Python",
-                        "level" : 3
-                    },
-                    {
-                        "name" : "YOLO",
-                        "level" : 3
-                    },
-                    {
-                        "name" : "OpenCV",
-                        "level" : 2
-                    },
-                    {
-                        "name" : "Matplotlib",
-                        "level" : 2
-                    },
-                    {
-                        "name" : "Pandas",
-                        "level" : 2
-                    },
-                    {
-                        "name" : "Pytorch",
-                        "level" : 1
-                    }
-                ]
+                "name": "JavaScript",
+                "image_src": "/javascript.svg",
+                "image_alt": "JavaScript Logo"
             },
             {
-                "sector" : "DevOps",
-                "skills_used":
-                [
-                    {
-                        "name" : "Linux",
-                        "level" : 2
-                    },
-                    {
-                        "name" : "Docker",
-                        "level" : 2
-                    },
-                    {
-                        "name" : "Celery",
-                        "level" : 1
-                    }
-                ]
+                "name": "React",
+                "image_src": "/react.svg",
+                "image_alt": "ReactJS Logo"
+            },
+            {
+                "name": "Django",
+                "image_src": "/django.svg",
+                "image_alt": "Django Logo"
+            },
+            {
+                "name": "Flask",
+                "image_src": "/flask.svg",
+                "image_alt": "Flask Logo"
+            },
+            {
+                "name": "Docker",
+                "image_src": "/docker.svg",
+                "image_alt": "Docker Logo"
+            },
+            {
+                "name": "Linux",
+                "image_src": "/linux.svg",
+                "image_alt": "Linux Logo"
+            },
+            {
+                "name": "OpenCV",
+                "image_src": "/opencv.svg",
+                "image_alt": "OpenCV Logo"
+            },
+            {
+                "name": "MySQL",
+                "image_src": "/mysql.svg",
+                "image_alt": "SQL Logo"
+            },
+            {
+                "name": "SQLite",
+                "image_src": "/sqlite.svg",
+                "image_alt": "SQLite Logo"
+            },
+            {
+                "name": "Git",
+                "image_src": "/git.svg",
+                "image_alt": "Git Logo"
+            },
+            {
+                "name": "Typescript",
+                "image_src": "/typescript.svg",
+                "image_alt": "Typescript Logo"
+            },
+            {
+                "name": "NodeJS",
+                "image_src": "/nodejs.svg",
+                "image_alt": "NodeJS Logo"
+            },
+            {
+                "name": "Nginx",
+                "image_src": "/nginx.svg",
+                "image_alt": "Nginx Logo"
+            },
+            {
+                "name": "Socket.IO",
+                "image_src": "/socket.io.svg",
+                "image_alt": "Socket.IO Logo"
+            },
+            {
+                "name": "HTML",
+                "image_src": "/html.svg",
+                "image_alt": "HTML Logo"
+            },
+            {
+                "name": "CSS",
+                "image_src": "/css.svg",
+                "image_alt": "CSS Logo"
+            },
+            {
+                "name": "TailwindCSS",
+                "image_src": "/tailwindcss.svg",
+                "image_alt": "Tailwind CSS Logo"
             }
         ]
 
@@ -173,34 +154,39 @@
         [
             {
                 "number": 1,
-                "image_src": "/im_bored_game.png",
-                "image_alt": "I'm Bored Game",
-                "project_name": "I'm Bored Game",
-                "description": "A mini game made using PyGame",
-                "long_description": "This is a game inspired by the classic Snake game, made using Python",
+                "image_src": "/quick_clash.png",
+                "image_alt": "Quick Clash Image",
+                "project_name": "Quick Clash",
+                "description": "Real-time multiplayer Tic Tac Toe platform",
+                "long_description": "A multiplayer platform for playing real-time Tic Tac Toe with in built chat feature",
                 "skills" :
                 [
-                    "Python",
-                    "OOP"
+                    "ReactJS",
+                    "CSS",
+                    "NodeJS",
+                    "ExpressJS",
+                    "Socket.IO"
                 ],
-                "date_added": "12/05/2024",
-                "link": "https://github.com/marcusyks/im-bored-game"
+                "date_added": "13/06/2025",
+                "link": "https://github.com/marcusyks/quick-clash"
             },
             {
                 "number": 2,
-                "image_src": "/playlist.jpg",
-                "image_alt": "Portfolio Image",
-                "project_name": "Personal Portfolio",
-                "description": "You are here!",
-                "long_description": "This is a personal portfolio created with Spotify in mind, I really love music, if you can already tell",
+                "image_src": "/snap_sage.png",
+                "image_alt": "SnapSage Image",
+                "project_name": "SnapSage",
+                "description": "AI-Powered Image Search Mobile Application",
+                "long_description": "A full-stack mobile application that allows users to search for images through similarity search and keyword tagging.",
                 "skills" :
                 [
-                    "NextJS",
-                    "Typescript",
-                    "Javascript"
+                    "React Native",
+                    "Flask",
+                    "Nginx",
+                    "SQLite",
+                    "Computer Vision"
                 ],
-                "date_added": "25/04/2024",
-                "link": "https://marcusyks-github-io.vercel.app/"
+                "date_added": "21/03/2024",
+                "link": "https://github.com/marcusyks/snap-sage"
             },
             {
                 "number": 3,
@@ -220,22 +206,6 @@
                 ],
                 "date_added": "05/04/2024",
                 "link": "https://github.com/marcusyks/DoseTrack"
-            },
-            {
-                "number": 4,
-                "image_src": "/tictactoe.png",
-                "image_alt": "Tic Tac Toe Image",
-                "project_name": "Tic Tac Toe",
-                "description": "A tic tac toe game",
-                "long_description": "This is a simple tic tac toe game made entirely using vanilla HTML, CSS and Javascript",
-                "skills" :
-                [
-                    "HTML",
-                    "CSS",
-                    "Javascript"
-                ],
-                "date_added": "20/10/2022",
-                "link": "https://github.com/marcusyks/Javascript-Tic-Tac-Toe"
             }
         ]
     }

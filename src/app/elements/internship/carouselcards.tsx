@@ -16,12 +16,12 @@ export default function CarouselCards(props: InternshipContent){
     ));
 
     return(
-        <Carousel className="bg-background flex justify-center items-center rounded shadow-xl shadow-foreground/30 w-full lg:w-fit">
+        <Carousel className="relative justify-center items-center w-full h-1/2 lg:w-fit">
             <CarouselContent className="text-center">
                 {items}
             </CarouselContent>
-            <CarouselPrevious className='left-2'/>
-            <CarouselNext className='right-2'/>
+            <CarouselPrevious className='left-0'/>
+            <CarouselNext className='right-0'/>
         </Carousel>
     )
 }
