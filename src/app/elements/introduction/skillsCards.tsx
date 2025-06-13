@@ -11,7 +11,7 @@ export default function SkillCards(props: SkillsContent) {
                 width={48}
                 height={48}
                 alt={skill.image_alt}
-                className="mx-auto mb-4 rounded-xl md:w-[64px] md:h-[64px]"
+                className="mx-auto mb-4 md:w-[64px] md:h-[64px]"
             />
             <p className="text-xs sm:text-sm font-semibold">{skill.name}</p>
         </div>
