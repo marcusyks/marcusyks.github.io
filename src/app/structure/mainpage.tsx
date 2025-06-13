@@ -13,8 +13,8 @@ export default function MainPage(props: JSONContent) {
     const projectData = props.project;
 
     return (
-      <div className="bg-secondary lg:m-2 lg:ml-24 w-full lg:pb-0 flex flex-col scroll-smooth" id='mainpage'>
-        {/* <AnchorButton type='down'/> */}
+      <div className="relative w-full bg-secondary lg:m-2 lg:ml-24 lg:pb-0 flex flex-col scroll-smooth" id='mainpage'>
+        <div className='bg-design'></div>
         <Introduction/>
         <Skills {...skillsData}/>
         <Internship {...internshipData}/>
