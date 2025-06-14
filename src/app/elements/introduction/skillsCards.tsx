@@ -19,7 +19,7 @@ export default function SkillCards(props: SkillsContent) {
 
     return (
         <div>
-            <div className="flex flex-wrap justify-center items-center gap-3 md:px-16">
+            <div className="flex flex-wrap justify-center items-center gap-3 md:px-16 md:py-8">
                 {skillItems}
             </div>
         </div>

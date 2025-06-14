@@ -1,9 +1,9 @@
 
-import Sidebar from "./structure/sidebar";
 import MainPage from "./structure/mainpage";
-import MobileSideBar from "./structure/mobilesidebar";
+import SideBar from "./structure/sidebar";
 import { promises as fs } from 'fs';
 import { JSONContent } from "./data/data";
+import BackgroundDesign from "./elements/backgroundDesign";
 
 export default async function Home() {
   const file = await fs.readFile(process.cwd() + '/src/app/data.json', 'utf8');
@@ -11,8 +11,7 @@ export default async function Home() {
 
   return (
     <main className="flex bg-background">
-      <Sidebar/>
-      <MobileSideBar/>
+      <SideBar/>
       <MainPage {...data}/>
     </main>
   );

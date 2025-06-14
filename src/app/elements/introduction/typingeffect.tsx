@@ -9,7 +9,7 @@ export default function TypingEffect(props: TypingContent) {
     const dolphin = '&#128044'
 
     return (
-      <div className='whitespace-pre-line text-sm md:text-lg text-center italic'>
+      <div className='whitespace-pre-line text-md md:text-lg italic text-accent text-center'>
         <Typewriter
           options={{
             delay: 60,

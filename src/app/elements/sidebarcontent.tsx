@@ -27,11 +27,11 @@ import {
                     <ContactIcon/>
                 </DrawerTrigger>
             </div>
-            <DrawerContent className="bg-background">
+            <DrawerContent className="bg-secondary">
                 <DrawerHeader>
                     <DrawerTitle>Contact</DrawerTitle>
                     <DrawerDescription>Here are my contact methods</DrawerDescription>
-                    <div className="flex gap-4 bg-background text-foreground mt-6 sm:justify-start justify-center" >
+                    <div className="flex gap-4 bg-secondary text-foreground mt-6 sm:justify-start justify-center" >
                         <Link href="https://github.com/marcusyks" target="_blank">
                             <GithubIcon size={40} className="btn-animation"/>
                         </Link>
