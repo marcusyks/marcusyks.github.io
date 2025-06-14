@@ -15,7 +15,7 @@ export default function Introduction(){
                         className="shadow-md shadow-background rounded-full md:w-[250px] md:h-[250px]"
                     />
                     <div className="flex justify-center items-center gap-6 flex-col">
-                        <p className="animate-bounce repeat-[3.5] ease-in-out text-5xl">Hello, I'm Marcus</p>
+                        <p className="animate-bounce repeat-[3.5] ease-in-out text-3xl md:text-5xl">Hello, I'm Marcus</p>
                         <TypingEffect content='I am an aspiring software engineer'/>
                     </div>
                 </div>

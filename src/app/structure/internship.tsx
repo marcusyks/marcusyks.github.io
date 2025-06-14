@@ -6,7 +6,7 @@ export default function Internship(props: InternshipContent) {
     return (
       <div className="relative min-h-screen">
         <div className='section' id='internship'>
-          <p className="text-5xl">Work Experiences</p>
+          <p className="text-3xl md:text-5xl">Work Experiences</p>
           <TypingEffect content="Here are some internships that I have done"/>
           <CarouselCards {...props}/>
         </div>
