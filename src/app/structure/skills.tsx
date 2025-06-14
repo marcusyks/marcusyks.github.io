@@ -5,7 +5,7 @@ import TypingEffect from "../elements/introduction/typingeffect";
 
 export default function Skills(props: SkillsContent){
     return(
-        <div className='relative min-h-screen'>
+        <div>
             <div className="section flex-row" id='introduction'>
                 <div className="sm:w-1/2 sm:items-normal flex justify-center items-center gap-6 flex-col">
                     <p className="text-3xl md:text-5xl">My Skills</p>

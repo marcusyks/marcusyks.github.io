@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function Introduction(){
     return(
-        <div className="relative min-h-screen">
-            <div className="section flex-col sm:flex-row md:gap-0" id='introduction'>
+        <div>
+            <div className="section flex-col sm:flex-row" id='introduction'>
                 <div className='flex flex-col sm:justify-evenly sm:flex-row items-center w-full gap-6'>
                     <Image
                         src='/profile.png'

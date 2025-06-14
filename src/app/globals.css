@@ -81,7 +81,7 @@
   }
 
   .section{
-    @apply relative z-10 flex flex-col gap-6 text-3xl rounded h-screen lg:my-0 justify-center items-center snap-center font-bold;
+    @apply relative z-10 flex flex-col gap-6 text-3xl rounded h-screen lg:my-0 justify-center items-center snap-center font-bold px-8;
   }
 
   .carousel{
