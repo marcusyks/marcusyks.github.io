@@ -127,15 +127,16 @@
                 "role": "Cyber AI Intern",
                 "description":
                 [
-                    "Finetuned LLMs to enhance accuracy for cyber related information",
-                    "Implemented prompt engineering to optimize LLM performance",
-                    "Conducted comprehensive benchmarking and comparative analysis of various LLMs"
+                    "Implemented prompt engineering to optimize LLM performance, increasing accuracy and efficiency by at least 30%",
+                    "Developed comprehensive benchmarking metrics of inference results using custom-made algorithms"
                 ],
                 "skills":
                 [
                     "Linux",
                     "Python",
-                    "Docker"
+                    "Docker",
+                    "Prompt Engineering",
+                    "Algorithms"
                 ]
             }
         ]
